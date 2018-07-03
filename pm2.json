@@ -1,0 +1,17 @@
+{
+    "apps": [
+        {
+            "name": "sci_chatbot",
+            "script": "./bin/www",
+            "cwd": "/home/sci_chatbot",
+            "args": "",
+            "instances": 4,
+            "exec_mode": "cluster",
+            "watch": false,
+            "env": {
+                "NODE_ENV": "production",
+                "PORT": 8080
+            }
+        }
+    ]
+}
